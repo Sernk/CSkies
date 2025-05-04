@@ -1,0 +1,673 @@
+Tiles: {
+	CometOreTile.MapEntry: Comet Ore
+	HeartAltar.MapEntry: Heart Altar
+}
+
+Items: {
+	CometBar: {
+		DisplayName: Comet Bar
+		Tooltip: Said to be a piece of the sky itself
+	}
+
+	CometOre: {
+		DisplayName: Comet Ore
+		Tooltip: ""
+	}
+
+	CosmicLens: {
+		DisplayName: Cosmic Lens
+		Tooltip: Looking through it lets you gaze into the heavens more clearly
+	}
+
+	CosmicStar: {
+		DisplayName: Cosmic Star
+		Tooltip: A star said to be from the edges of the universe
+	}
+
+	MoltenHeart: {
+		DisplayName: Molten Heart
+		Tooltip: It's uncomfortably hot to the touch
+	}
+
+	VoidLens: {
+		DisplayName: Void Lens
+		Tooltip: Looking through it...lets you see nothing.
+	}
+
+	CometVisor: {
+		SetBonus: Ranged projectiles have a chance to inflict cometspark on targets
+		DisplayName: Comet Visor
+		Tooltip: 6% increased ranged damage
+	}
+
+	StarsteelHelm: {
+		SetBonus:
+			'''
+			ERROR: AUGMENT SLOT EMPTY. 
+			PLEASE EQUIP AUGMENT TO ACTIVATE ABILITY SYSTEM
+			'''
+		DisplayName: Starsteel Helm
+		Tooltip: Changes stats based on which Starsteel Augment is equipped
+	}
+
+	CometBoots: {
+		DisplayName: Comet Boots
+		Tooltip: 7% increased ranged damage
+	}
+
+	CometPlate: {
+		DisplayName: Comet Plate
+		Tooltip: 6% increased ranged damage
+	}
+
+	StarsteelAugmentMa: {
+		DisplayName: Magic Starsteel Augment
+		Tooltip: If wearing starsteel Armor, accessory effects double.
+	}
+
+	StarsteelAugmentMe: {
+		DisplayName: Melee Starsteel Augment
+		Tooltip: If wearing starsteel Armor, accessory effects double.
+	}
+
+	StarsteelAugmentRa: {
+		DisplayName: Ranged Starsteel Augment
+		Tooltip: If wearing starsteel Armor, accessory effects double.
+	}
+
+	StarsteelAugmentSu: {
+		DisplayName: Summon Starsteel Augment
+		Tooltip: If wearing starsteel Armor, accessory effects double.
+	}
+
+	StarsteelBoots: {
+		DisplayName: Starsteel Boots
+		Tooltip: 4% increased damage & critical strike chance
+	}
+
+	StarsteelPlate: {
+		DisplayName: Starsteel Chestplate
+		Tooltip:
+			'''
+			5% increased damage
+			4% Increased critical strike chance
+			'''
+	}
+
+	Stelarite: {
+		DisplayName: Starsteel
+		Tooltip: ""
+	}
+
+	CometShard: {
+		DisplayName: Comet Shard
+		Tooltip: ""
+	}
+
+	CosmicEye: {
+		Tooltip:
+			'''
+			It's observing you.
+			Summons the Observer
+			Can only be used at night
+			'''
+		DisplayName: Cosmic Eye
+	}
+
+	VoidEye: {
+		DisplayName: Void Eye
+		Tooltip:
+			'''
+			The abyss stares back
+			Summons Observer Void
+			Can only be used at night
+			'''
+	}
+
+	MagmaAltar: {
+		DisplayName: Magma Altar
+		Tooltip: ""
+	}
+
+	StarCircuitBlock: {
+		DisplayName: Star Circuit Block
+		Tooltip: ""
+	}
+
+	VoidFragment: {
+		DisplayName: Void Fragment
+		Tooltip: A fragment from a broken world
+	}
+
+	StarCircuitWall: {
+		DisplayName: Star Circuit Wall
+		Tooltip: ""
+	}
+
+	Starglass: {
+		DisplayName: Starglass
+		Tooltip: ""
+	}
+
+	StarglassWall: {
+		DisplayName: Starglass Wall
+		Tooltip: ""
+	}
+
+	FlamingSoul: {
+		DisplayName: Flaming Soul
+		Tooltip: Summons a fury rune to fight with you
+	}
+
+	BlazeBuster: {
+		Tooltip: Fires an immensely powerful piercing laser that explodes on contact with enemies
+		DisplayName: Blaze Breaker
+	}
+
+	FurySoulMask: {
+		DisplayName: Fury Soul Mask
+		Tooltip: ""
+	}
+
+	FurySoulTrophy: {
+		DisplayName: Fury Soul Trophy
+		Tooltip: ""
+	}
+
+	HeartcoreMask: {
+		DisplayName: Heartcore Mask
+		Tooltip: ""
+	}
+
+	HeartcoreShield: {
+		DisplayName: Heartcore Shield
+		Tooltip:
+			'''
+			Provides knockback immunity
+			Allows you to do a fiery dash
+			Being stuck while equipped with this causes meteors to fall
+			Above half health, you are slowed by 10%, but gain 8 defense
+			Below half health, you gain 10% speed, 25% damage, but defense is reduced by 8
+			'''
+	}
+
+	HeartcoreTrophy: {
+		DisplayName: Heartcore Trophy
+		Tooltip: ""
+	}
+
+	HeartSoul: {
+		DisplayName: Heart Soul
+		Tooltip: The soul of an enraged, runic creature
+	}
+
+	MeteorShower: {
+		DisplayName: Meteor Shower
+		Tooltip: Summons flaming meteorites from the sky
+	}
+
+	Sol: {
+		DisplayName: Sol
+		Tooltip: ""
+	}
+
+	Railscope: {
+		DisplayName: Railscope
+		Tooltip: Allows you to view slightly further by moving your mouse to the edge of the screen
+	}
+
+	StarcoreShield: {
+		DisplayName: Starcore Shield
+		Tooltip:
+			'''
+			Provides knockback immunity
+			Allows you to do a quick dash
+			Being stuck while equipped with this causes stars to fall
+			'''
+	}
+
+	StarDroneUnit: {
+		DisplayName: Star Drone Detatchment Unit
+		Tooltip: Summons a star drone to fight with you
+	}
+
+	Starsaber: {
+		DisplayName: Starsaber
+		Tooltip: Fires Homing stars
+	}
+
+	StormStaff: {
+		DisplayName: Starstorm
+		Tooltip: Summons electrically charged stars from the sky
+	}
+
+	HeartcoreBag: {
+		DisplayName: Heartcore Bag
+		Tooltip: ""
+	}
+
+	StarcoreBag: {
+		DisplayName: Starcore Bag
+		Tooltip: ""
+	}
+
+	StarcoreMask: {
+		DisplayName: Starcore Mask
+		Tooltip: ""
+	}
+
+	StarcoreTrophy: {
+		DisplayName: Starcore Trophy
+		Tooltip: ""
+	}
+
+	CometFan: {
+		DisplayName: Nova Fan
+		Tooltip: ""
+	}
+
+	Comet: {
+		Tooltip: ""
+		DisplayName: The Comet
+	}
+
+	CometFragment: {
+		DisplayName: Comet Fragment
+		Tooltip: ""
+	}
+
+	CometJavelin: {
+		DisplayName: Comet Javelin
+		Tooltip: ""
+	}
+
+	Skyshot: {
+		DisplayName: Skyshot
+		Tooltip: Fires a homing comet towards your cursor
+	}
+
+	ObserverVoidBag: {
+		DisplayName: Observer Void Bag
+		Tooltip: ""
+	}
+
+	ObserverVoidEye: {
+		DisplayName: Observer Void Eye
+		Tooltip:
+			'''
+			Provides spelunker, night vision, dangersense, and hunter
+			10% increased critical strike chance
+			Pressing the accessory ability key will cause a vortex that drags in enemies within 10 blocks of you to appear
+			You can only use this ability once every 5 minutes
+			'''
+	}
+
+	ObserverVoidMask: {
+		DisplayName: Observer Void Mask
+		Tooltip: ""
+	}
+
+	ObserverVoidTrophy: {
+		DisplayName: Observer Void Trophy
+		Tooltip: ""
+	}
+
+	Singularity: {
+		DisplayName: The Singularity
+		Tooltip: Throws a vortex on a chain that attracts enemies towards it
+	}
+
+	VoidFan: {
+		DisplayName: Abyss Fan
+		Tooltip: ""
+	}
+
+	VoidJavelin: {
+		DisplayName: Void Javelin
+		Tooltip: ""
+	}
+
+	VOIDMask: {
+		DisplayName: VOID Mask
+		Tooltip: ""
+	}
+
+	VoidPortal: {
+		DisplayName: Abyss Portal
+		Tooltip: Summons an abyss gazer to fight for you
+	}
+
+	VoidShot: {
+		DisplayName: Abyss Tome
+		Tooltip: Releases a homing singularity that drags in enemies and explodes on contact
+	}
+
+	VOIDTrophy: {
+		DisplayName: VOID Trophy
+		Tooltip: ""
+	}
+
+	VoidWings: {
+		DisplayName: Void Wings
+		Tooltip:
+			'''
+			Allows flight and slow fall
+			Holding down while flying allows you to hover
+			'''
+	}
+
+	CometDagger: {
+		DisplayName: Comet Dagger
+		Tooltip: ""
+	}
+
+	CometPortal: {
+		DisplayName: Comet Portal
+		Tooltip: Summons a watcher to fight for you
+	}
+
+	ObserverBag: {
+		DisplayName: Observer Bag
+		Tooltip: ""
+	}
+
+	ObserverEye: {
+		DisplayName: Eye of the Observer
+		Tooltip: Provides spelunker, night vision, dangersense, and hunter
+	}
+
+	ObserverMask: {
+		DisplayName: Observer Mask
+		Tooltip: ""
+	}
+
+	ObserverTrophy: {
+		DisplayName: Observer Trophy
+		Tooltip: ""
+	}
+
+	Transmitter: {
+		DisplayName: Transmitter
+		Tooltip: ""
+	}
+
+	PassionRune: {
+		Tooltip: ""
+		DisplayName: Passion Rune
+	}
+}
+
+"Keybinds.Celestial Accessory Ability.DisplayName": Celestial  Accessory  Ability
+
+Buffs: {
+	Cometspark: {
+		DisplayName: Cometspark
+		Description: Spreads to nearby allies, stay away!
+	}
+
+	Sucked: {
+		DisplayName: Event Horizon
+		Description: There is no escape.
+	}
+
+	VECooldown: {
+		DisplayName: Vortex Burnout
+		Description: The Eye of the Abyss is disengaged and needs recharging
+	}
+
+	Heartburn: {
+		DisplayName: Heartburn
+		Description: ""
+	}
+
+	Rune: {
+		Description: Summons a fury rune to fight for you
+		DisplayName: Fury Rune
+	}
+
+	Drone: {
+		Description: Summons a star drone to fight for you
+		DisplayName: Star Drone
+	}
+
+	Impaled: {
+		Description: Ouch!
+		DisplayName: Impaled
+	}
+
+	Gazer: {
+		Description: Summons an abyss gazer to fight for you
+		DisplayName: Gazer
+	}
+
+	Watcher: {
+		DisplayName: Watcher
+		Description: Summons a watcher to fight for you
+	}
+}
+
+NPCs: {
+	Novacore.DisplayName: Novacore
+	NovacoreIntro.DisplayName: Novacore Intro
+
+	ObserverVoid: {
+		DisplayName: Observer Void
+
+		BossChecklistIntegration: {
+			EntryName: ObserverVoid
+			SpawnInfo:
+				'''
+				Use a [i:CSkies/VoidEye] at night
+				Observer Void Returns to the darkness...
+				'''
+		}
+	}
+
+	Observer: {
+		DisplayName: Observer
+
+		BossChecklistIntegration: {
+			EntryName: Observer
+			SpawnInfo:
+				'''
+				Use a [i:CSkies/CosmicEye] at night
+				The observer has seen enough.
+				'''
+		}
+	}
+
+	Void.DisplayName: Void
+	VoidDeath.DisplayName: Void Death
+	VoidTransition1.DisplayName: ???
+	VoidTransition2.DisplayName: ???
+	AbyssGazer.DisplayName: Abyss Gazer
+	AbyssVoid.DisplayName: Abyss Gate
+	FuryMinion.DisplayName: Fury Minion
+
+	FurySoul: {
+		DisplayName: Fury Soul
+
+		BossChecklistIntegration: {
+			EntryName: Fury Soul
+			SpawnInfo:
+				'''
+				Defeat Heartcore in expert mode
+				Heartcore vanishes in a blink of flame...
+				'''
+		}
+
+		Chat.FurySoulSay: The soul begins to lash out in a fit of fiery rage.
+	}
+
+	FurySoulDeath.DisplayName: Fury Soul Death
+	FurySoulTransition.DisplayName: Fury Soul Transition
+	TeleportLocation.DisplayName: Teleport Location
+
+	Heartcore: {
+		DisplayName: Heartcore
+
+		BossChecklistIntegration: {
+			EntryName: Heartcore
+			SpawnInfo:
+				'''
+				Use a [i:CSkies/PassionRune] at night
+				Heartcore rockets back into the stratosphere...
+				'''
+		}
+	}
+
+	HeartcoreDefeat.DisplayName: Heartcore Defeat
+
+	Starcore: {
+		DisplayName: Starcore
+		Chat.StarCore: BODY IN CRITICAL STATE. ENGAGE PANIC MODE
+
+		BossChecklistIntegration: {
+			EntryName: Starcore
+			SpawnInfo:
+				'''
+				Use a [i:CSkies/Transmitter] at night
+				Starcore returns to orbit.
+				'''
+		}
+	}
+
+	Watcher.DisplayName: Watcher
+}
+
+Projectiles: {
+	FallingStarProj.DisplayName: Falling Star Proj
+	StarGuardian.DisplayName: Star Guardian
+	StarGuardianShot.DisplayName: Star Guardian Shot
+	NovaBeam.DisplayName: Nova Beam
+	NovaBeamSmall.DisplayName: Nova Beam Small
+	NovaBlast.DisplayName: Nova Blast
+	NovaRocket.DisplayName: Nova Rocket
+	Novashock.DisplayName: Novashock
+	NovaTurret.DisplayName: Nova Turret
+	NovaTurretProj.DisplayName: Nova Turret Proj
+	BlackHole.DisplayName: Black Hole
+	BlackHoleProj.DisplayName: Black Hole Proj
+	ShadowBlast.DisplayName: Shadow Blast
+	ShadowBoom.DisplayName: Shadow Boom
+	ShadowBoom1.DisplayName: Shadow Boom1
+	VoidLaser.DisplayName: Void Laser
+	Vortex.DisplayName: Vortex
+	VoidBlast.DisplayName: Void Blast
+	VoidDeathBoom.DisplayName: Void Death Boom
+	VoidDeathray.DisplayName: Void Deathray
+	VoidOrbitter.DisplayName: Void Orbitter
+	Voidray.DisplayName: Voidray
+	VoidraySmall.DisplayName: Voidray Small
+	VoidShock.DisplayName: Void Shock
+	VoidShot.DisplayName: Void Shot
+	VoidVortex.DisplayName: Void Vortex
+	FallenShard.DisplayName: Fallen Shard
+	Meteor0.DisplayName: Meteor0
+	Meteor.DisplayName: Meteor
+	ShieldStar.DisplayName: Shield Star
+	VoidEyeVortex.DisplayName: Void Eye Vortex
+	AbyssSandBall.DisplayName: Abyss Sand Ball
+	ShockwaveBoom.DisplayName: Shockwave Boom
+	Shock.DisplayName: Shock
+	Title.DisplayName: Title
+	Flameray.DisplayName: Flameray
+	FlameraySmall.DisplayName: Flameray Small
+	Furyrang.DisplayName: Furyrang
+	BigHeartshot.DisplayName: Big Heartshot
+	Fire.DisplayName: Fire
+	Fireball.DisplayName: Fireball
+	FireBoom.DisplayName: Fire Boom
+	Fireshot.DisplayName: Fireshot
+	FlameBoom.DisplayName: Flame Boom
+	Flamewave.DisplayName: Flamewave
+	Blaze.DisplayName: Blaze
+	BlazeBoom.DisplayName: Blaze Boom
+	FirePro.DisplayName: Fire Pro
+	Heart.DisplayName: Heart
+	ProBoom.DisplayName: Pro Boom
+	HeartRune.DisplayName: Heart Rune
+	MinionStar.DisplayName: Minion Star
+	RuneWave.DisplayName: Rune Wave
+	StarDrone.DisplayName: Star Drone
+	Static.DisplayName: Static
+	Starlaser.DisplayName: Starlaser
+	StarPro.DisplayName: Star Pro
+	StarRing.DisplayName: Star Ring
+	Starstorm.DisplayName: Starstorm
+	Comet.DisplayName: Comet
+	CometJavelin.DisplayName: Comet Javelin
+	CometKnife.DisplayName: Comet Knife
+	CometShot.DisplayName: Comet Shot
+	AbyssBall.DisplayName: Abyss Ball
+	Gazer.DisplayName: Gazer
+	Singularity.DisplayName: Singularity
+	VoidBoom.DisplayName: Void Boom
+	VoidJavelin.DisplayName: Void Javelin
+	VoidKnife.DisplayName: Void Knife
+	VoidMagic.DisplayName: Void Magic
+	FlameBlast.DisplayName: Flame Blast
+	StarbeamF.DisplayName: Starbeam F
+	Starbeam.DisplayName: Starbeam
+	Watcher.DisplayName: Watcher
+	BigStarProj.DisplayName: Big Star Proj
+	MiniStar.DisplayName: Mini Star
+	Starblast.DisplayName: Starblast
+	Starshot.DisplayName: Starshot
+	Starsphere.DisplayName: Starsphere
+	Starstatic.DisplayName: Starstatic
+	Star.DisplayName: Star
+	StormRing.DisplayName: Storm Ring
+	StarProj.DisplayName: Star Proj
+	Starshock.DisplayName: Starshock
+}
+
+Configs.CConfigClient.DisplayName: C Config Client
+Config.BuffSettings: Boss Intro Text Header
+
+CWorldSystem: {
+	CWorld: {
+		Chat: {
+			downedMoonlord: The death of a titan rips open a gateway from the dark below
+			downedObserverV: The sound of arcane stone cracking echoes across the land...
+			Sky: The sky has fallen somewhere in the world
+		}
+	}
+}
+
+VoidNPC: {
+	Void: {
+		DisplayName: Void
+		Chat.VOIDSAY: VOID's form begins to destabilize
+
+		BossChecklistIntegration: {
+			EntryName: Void
+			SpawnInfo:
+				'''
+				Defeat Observer Void in expert mode
+				The sound of insane laugter rings through your ears...
+				'''
+		}
+	}
+}
+
+CometTabletSystem: {
+	CometTablet: {
+		Tooltip: ""
+		DisplayName: Comet Tablet
+
+		Chat: {
+			Cometa2: Another comet exists in this world in some form or another already...
+			Cometa1: Brings forth a travelling star to your world
+		}
+	}
+}
+
+Biomes: {
+	AbyssVaultBiome: {
+		DisplayName: Abyss Vault Biome
+		TownNPCDialogueName: the Abyss Vault Biome
+	}
+}
+
+ShopSystem.Shop.Chat.BossSumonn: After defeating the boss

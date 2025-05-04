@@ -1,0 +1,62 @@
+CSkies mod port
+
+The heavens are falling, and creatures from afar have their eye on the world of terraria.
+
+This mod is intended to be a small content mod, and as such is very light on additions to the game.
+
+Currently Celestial Skies adds:
+
+-2 Bosses (One Post Skeletron and One post-ML)
+-1 Meteor Biome
+-1 Post-Moon Lord sub-biome in space
+-2 Weapon sets
+
+-----
+
+V 2.0.0.0
+
+WARNING: TO EXPERIENCE THIS UPDATE YOU WILL NEED A NEW WORLD
+
+1 new Miniboss; Magma Heart; Fought inside the newly generated Abyss Vaults
+
+2 new bosses; Starcore: An early hardmode boss, and Heartcore, a post-Observer Void boss
+
+-----
+
+Note: *THIS MOD CONTAINS COPYRIGHTED MUSIC FROM THE KIRBY FRANCHISE*
+
+As of late, Nintendo has been lax on copyright, but I just wanted to mention this just in case ^
+
+Music will be replaced by original tracks eventually
+
+-----
+
+Check out our Discord by clicking the mod homepage button if you have any questions, would like to contribute, show off fan work, or just meme around
+
+-----
+
+Credits:
+
+Me (Elizabeth Yamamoto) - Coding, Design, Sprites, and Direction
+
+Sumenora - Testing
+
+Governor Gibs - Testing
+
+OverlordCMD - Testing
+
+Alphakip - Coding help & Testing
+
+Terry N. Muse - Coding help + bits of AI code + Testing
+
+PoisX - Sprites
+
+Darkpuppey - Sprites
+
+Ryanlolz1 - Sprites
+
+Fazer Gamer - Animations
+
+Spectral Aves - Dark Nebula Remix
+
+The Ancients Awakened testing team - Volunteer Testing

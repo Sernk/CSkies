@@ -1,0 +1,5 @@
+displayName = Celestial Skies Updated
+author = Gs_qs
+version = 0.1
+weakReferences = Fargowiltas
+modReferences = StructureHelper

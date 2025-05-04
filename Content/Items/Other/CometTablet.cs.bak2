@@ -1,0 +1,102 @@
+using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
+using Terraria;
+using Terraria.GameContent;
+using Terraria.ID;
+using Terraria.ModLoader;
+using CSkies.Utilities;
+using CSkies.Utilities.Base.BaseMod.Base;
+
+namespace CSkies.Content.Items.Other
+{
+    public class CometTablet : ModItem, ILocalizedModType
+    {
+        public string LocalizationCategory => "CometTabletSystem"; 
+
+        public override void Load()
+        {
+            string Cometa1 = this.GetLocalization("Chat.Cometa1").Value; // Brings forth a travelling star to your world
+            string Cometa2 = this.GetLocalization("Chat.Cometa2").Value; // Another comet exists in this world in some form or another already...
+        }
+
+        public override void SetStaticDefaults()
+		{
+			DisplayName.SetDefault("Comet Tablet");
+            string Cometa1 = this.GetLocalization("Chat.Cometa1").Value;
+            BaseUtility.AddTooltips(Item, new string[] { Cometa1 });	
+		}
+
+        public override void SetDefaults()
+        {
+            Item.width = 20;
+            Item.height = 20;
+            Item.maxStack = 30;
+            Item.rare = ItemRarityID.Green;
+            Item.useAnimation = 45;
+            Item.useTime = 45;
+            Item.consumable = true;
+            Item.useStyle = ItemUseStyleID.Swing;
+        }
+
+        public override bool CanUseItem(Player player)
+        {
+            int num = 0;
+            float num2 = Main.maxTilesX / 4200;
+            int num3 = (int)(400f * num2);
+            for (int j = 5; j < Main.maxTilesX - 5; j++)
+            {
+                int num4 = 5;
+                while (num4 < Main.worldSurface)
+                {
+                    if (Main.tile[j, num4].active() && Main.tile[j, num4].TileType == (ushort)ModContent.TileType<Tiles.CometOreTile>())
+                    {
+                        num++;
+                        if (num > num3)
+                        {
+                            string Cometa2 = this.GetLocalization("Chat.Cometa2").Value;
+                            BaseUtility.Chat(Cometa2, new Color(136, 151, 255), true);
+                            return false;
+                        }
+                    }
+                    num4++;
+                }
+            }
+            CWorld.DropMeteor();
+            return true;
+        }
+
+        public override Color? GetAlpha(Color lightColor)
+        {
+            return Color.White * 0.8f;
+        }
+
+        public override void AddRecipes()
+        {
+            Recipe recipe = CreateRecipe();
+            recipe.AddIngredient(ModContent.ItemType<CometShard>(), 9);
+            recipe.AddTile(TileID.Anvils);
+            recipe.Register();
+        }
+
+        public override void PostDrawInWorld(SpriteBatch spriteBatch, Color lightColor, Color alphaColor, float rotation, float scale, int whoAmI)
+        {
+            Texture2D texture = TextureAssets.Item[Item.type].Value;
+            spriteBatch.Draw
+            (
+                texture,
+                new Vector2
+                (
+                    Item.position.X - Main.screenPosition.X + Item.width * 0.5f,
+                    Item.position.Y - Main.screenPosition.Y + Item.height - texture.Height * 0.5f + 2f
+                ),
+                new Rectangle(0, 0, texture.Width, texture.Height),
+                Color.White,
+                rotation,
+                texture.Size() * 0.5f,
+                scale,
+                SpriteEffects.None,
+                0f
+            );
+        }
+    }
+}
